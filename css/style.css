@@ -12,6 +12,9 @@ body,
 .font-manrope{
     font-family: 'Manrope', sans-serif;
 }
+.font-abril{
+    font-family: 'Abril Fatface', cursive;
+}
 .fw-medium{
     font-weight: 500;
 }
@@ -51,6 +54,9 @@ body,
 }
 .fw-black{
     font-weight: 900;
+}
+.border-sky{
+    border-color: #3F87F5 !important;
 }
 
 
