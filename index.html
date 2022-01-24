@@ -120,11 +120,11 @@
         <!-- Album Section Start -->
         <section class="py-5 position-relative">
             <div class="container">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-6">
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
                         <img class="img-fluid" src="images/wedding.png" alt="">
                     </div>
-                    <div class="col-6">
+                    <div class="col-sm-6">
                         <h1 class="fw-bold mb-2">Every moment is Precious</h1>
                         <p class="fw-bold color-grayest mb-4">The Melody Convention Center has versatile balconies,
                             gardens,
@@ -136,8 +136,8 @@
                 </div>
             </div>
             <!-- Toast Start -->
-            <div class="toast show align-items-center position-absolute top-50 end-0" role="alert" aria-live="assertive"
-                aria-atomic="true">
+            <div class="toast show align-items-center position-absolute top-50 end-0 toast-width" role="alert"
+                aria-live="assertive" aria-atomic="true">
                 <div class="d-flex border-start border-5 border-sky">
                     <div class="toast-body fw-medium color-gray"><i class="fas fa-gift fs-4 pe-2 color-sky"></i> 20% off
                         on next
@@ -308,7 +308,7 @@
         <section class="container py-5">
             <h1 class="text-center mb-5 pb-5 font-poppins fw-semi-bold">Frequently Asked Questions</h1>
             <div class="row align-items-center font-inter">
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -380,7 +380,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <img class="img-fluid" src="images/people.png" alt="">
                 </div>
             </div>
@@ -391,8 +391,8 @@
         <section>
             <div class="container my-5">
                 <h1 class="text-center mb-5 pb-5 font-poppins fw-semi-bold">Let's Get In Touch</h1>
-                <div class="row align-items-center gx-5">
-                    <div class="col-6 d-flex justify-content-center flex-column">
+                <div class="row align-items-center ">
+                    <div class="col-md-6 d-flex justify-content-center flex-column">
                         <div class="form-floating mb-3">
                             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                             <label for="floatingInput">Email address</label>
@@ -400,19 +400,19 @@
                         <button type="submit" class="btn text-white fw-bold px-4 py-2 bg-sky">Subscribe <i
                                 class="fas fa-arrow-right ps-2"></i></button>
                     </div>
-                    <div class="col-6">
-                        <div class="row">
-                            <div class="col-4 d-flex flex-column align-items-center">
+                    <div class="col-md-6">
+                        <div class="row gy-3 mt-3">
+                            <div class="col-md-4 d-flex flex-column align-items-center">
                                 <img class="w-25" src="images/icons/icon-1.jpg" alt="icon-1">
                                 <h5 class="text-uppercase fw-bold pt-1 mb-0 color-grayest font-abril">Address</h5>
                                 <p class="m-0 small">394 Elk Rd Little</p>
                             </div>
-                            <div class="col-4 d-flex flex-column align-items-center">
+                            <div class="col-md-4 d-flex flex-column align-items-center">
                                 <img class="w-25" src="images/icons/icon-2.jpg" alt="icon-2">
                                 <h5 class="text-uppercase fw-bold pt-1 mb-0 color-grayest font-abril">Phone</h5>
                                 <p class="m-0 small">02 8916314</p>
                             </div>
-                            <div class="col-4 d-flex flex-column align-items-center">
+                            <div class="col-md-4 d-flex flex-column align-items-center">
                                 <img class="w-25" src="images/icons/icon-3.png" alt="icon-3">
                                 <h5 class="text-uppercase fw-bold pt-1 mb-0 color-grayest font-abril">Email</h5>
                                 <p class="m-0 small">mcc@info.com</p>
@@ -431,18 +431,20 @@
     <!-- Footer Start -->
     <footer>
         <div class="container font-manrope mt-5">
-            <div class="row align-items-center py-5">
-                <div class="col-9">
+            <div class="row align-items-center py-5 mx-auto">
+                <div class="col-md-9">
                     <p class="small mb-0"> &copy; 2022 bike. All rights reserved</p>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3">
                     <p class="fw-medium">Get the App</p>
-                    <a href="https://apps.apple.com/us/app/wedding-planner-by-the-knot/id457941553">
-                        <img class="img-fluid mb-3" src="images/app-store.png" alt="">
-                    </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.bridestory.user">
-                        <img class="img-fluid" src="images/play-store.png" alt="">
-                    </a>
+                    <div class="d-flex flex-column">
+                        <a href="https://apps.apple.com/us/app/wedding-planner-by-the-knot/id457941553">
+                            <img class="img-fluid mb-3" src="images/app-store.png" alt="">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.bridestory.user">
+                            <img class="img-fluid" src="images/play-store.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -69,3 +69,7 @@ footer{
     background-color: #0B0D17;
     color: #D9DBE1;;
 }
+
+.toast-width{
+    width: 270px;
+}
