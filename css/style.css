@@ -3,6 +3,9 @@ body,
 .font-poppins{
     font-family: 'Poppins', sans-serif;
 }
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
 .fw-semi-bold{
     font-weight: 600;
 }
@@ -20,12 +23,23 @@ body,
 }
 .bg-pinkish-gray{
     background-color: rgba(244, 150, 209, 0.1);
-    ;
+}
+.bg-sky{
+    background-color: #3F87F5;
+}
+.bg-tomato{
+    background-color: #FF4E4E;
+}
+.rounded-custom{
+    border-radius: 1.625rem;
+}
+.fw-black{
+    font-weight: 900;
 }
 
-.package-section{
-    font-family: 'Roboto', sans-serif;
-}
+
+
 .fa-check{
     color: #5243C2;
 }
+
