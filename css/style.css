@@ -6,6 +6,9 @@ body,
 .font-roboto{
     font-family: 'Roboto', sans-serif;
 }
+.fw-medium{
+    font-weight: 500;
+}
 .fw-semi-bold{
     font-weight: 600;
 }
@@ -17,6 +20,10 @@ body,
 }
 .color-gray{
     color: #848199;
+}
+.color-black,
+.navbar-light .navbar-nav .color-black{
+    color: #3E3E3E;
 }
 .bg-gray{
     background-color: rgba(82, 67, 194, 0.103693);
