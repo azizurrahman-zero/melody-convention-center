@@ -1,0 +1,31 @@
+/* Utilities */
+body,
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.fw-semi-bold{
+    font-weight: 600;
+}
+.color-sky{
+    color: #3F87F5;
+}
+.color-blue{
+    color: #231D4F;
+}
+.color-gray{
+    color: #848199;
+}
+.bg-gray{
+    background-color: rgba(82, 67, 194, 0.103693);
+}
+.bg-pinkish-gray{
+    background-color: rgba(244, 150, 209, 0.1);
+    ;
+}
+
+.package-section{
+    font-family: 'Roboto', sans-serif;
+}
+.fa-check{
+    color: #5243C2;
+}
